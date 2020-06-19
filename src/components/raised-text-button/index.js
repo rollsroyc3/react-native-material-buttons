@@ -16,7 +16,7 @@ export default class RaisedTextButton extends PureComponent {
 
     title: PropTypes.string.isRequired,
     titleColor: PropTypes.string,
-    titleStyle: Animated.Text.propTypes.style,
+    titleStyle: PropTypes.style,
     disabledTitleColor: PropTypes.string,
   };
 
